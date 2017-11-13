@@ -1,6 +1,8 @@
 Jekyll-Pug-Material
 ---
 
+![Screenshot of template](src/static/img/screenshot.png)
+
 # A Material Design Pug Experience Using [Jekyll-Pug](https://jekyll-pug.dougie.io/)
 
 To Run:
