@@ -1,0 +1,5 @@
+source: src
+destination: dist
+
+title: I ❤ Pug
+permalink: /:categories/:title

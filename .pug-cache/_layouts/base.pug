@@ -1,0 +1,54 @@
+doctype html
+html(lang='en')
+	head
+		meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+		meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1.0')
+		title {{page.title}}
+		// CSS
+		link(href='https://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
+		link(href='/static/css/materialize.css', type='text/css', rel='stylesheet', media='screen,projection')
+		link(href='/static/css/style.css', type='text/css', rel='stylesheet', media='screen,projection')
+	body
+		include nav
+		| {{content}}
+		br
+		br
+		footer.page-footer.orange
+			.container
+				.row
+					.col.l6.s12
+						h5.white-text Company Bio
+						p.grey-text.text-lighten-4
+							| We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.
+					.col.l3.s12
+						h5.white-text Settings
+						ul
+							li
+								a.white-text(href='#!') Link 1
+							li
+								a.white-text(href='#!') Link 2
+							li
+								a.white-text(href='#!') Link 3
+							li
+								a.white-text(href='#!') Link 4
+					.col.l3.s12
+						h5.white-text Connect
+						ul
+							li
+								a.white-text(href='#!') Link 1
+							li
+								a.white-text(href='#!') Link 2
+							li
+								a.white-text(href='#!') Link 3
+							li
+								a.white-text(href='#!') Link 4
+			.footer-copyright
+				.container
+					| Jekyll-Pug plugin by 
+					a.orange-text.text-lighten-3(href='https://dougie.io') Doug Beney
+					|  - CSS framework by 
+					a.orange-text.text-lighten-3(href='http://materializecss.com') Materialize
+		// Scripts
+		script(src='https://code.jquery.com/jquery-2.1.1.min.js')
+		script(src='/static/js/materialize.js')
+		script(src='/static/js/init.js')
