@@ -6,6 +6,13 @@
  * Made By MaterializeCSS.com
  */
 
+#view_source{
+	position: fixed;
+	z-index: 999;
+	right: 15px;
+	bottom: 15px
+}
+
 .icon-block {
   padding: 0 15px;
 }
