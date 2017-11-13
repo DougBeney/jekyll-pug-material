@@ -1,7 +1,10 @@
 ---
-title: All About The Sun
+title: How to Tie a Tie
+date: 2017-11-12 00:00:00 Z
+categories:
+- src
+- how-to
 layout: post
-category: ["space"]
 ---
 
 Lorem markdownum et bisulco summo minax **meruisse** in undamque putat! Ille

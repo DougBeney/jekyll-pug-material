@@ -1,5 +1,13 @@
+---
+title: I ❤ Pug
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 source: src
 destination: dist
-
-title: I ❤ Pug
-permalink: /:categories/:title
+permalink: "/:categories/:title"
